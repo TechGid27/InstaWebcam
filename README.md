@@ -1,33 +1,33 @@
-# attendance system
+📸 InstaWebcam – Prototype Description
+InstaWebcam is a lightweight prototype web application built using Vue 3 with TypeScript, designed to access and capture images directly from the user's webcam through a modern browser interface. The primary goal of this project is to demonstrate seamless webcam integration, real-time video streaming, and image capture without the need for third-party software or native app installation.
 
-This template should help get you started developing with Vue 3 in Vite.
+🔍 Key Features (Prototype Stage):
+Live webcam video preview using native browser APIs.
 
-## Recommended IDE Setup
+Instant image capture from video feed via HTML5 <canvas>.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Base64 image output for easy preview or potential upload.
 
-## Type Support for `.vue` Imports in TS
+Responsive layout for cross-device testing.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+🛠️ Tech Stack:
+Vue 3
 
-## Customize configuration
+TypeScript
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+HTML5 Video & Canvas API
 
-## Project Setup
+Bootstrap (optional styling)
 
-```sh
-npm install
-```
+🚧 Status:
+This is an early-stage prototype focused on core functionality. Future plans may include:
 
-### Compile and Hot-Reload for Development
+Image gallery management
 
-```sh
-npm run dev
-```
+Upload to server or cloud storage
 
-### Type-Check, Compile and Minify for Production
+Camera switching (front/back on mobile)
 
-```sh
-npm run build
-```
+Filters or image enhancements
+
+User authentication for personalized experiences

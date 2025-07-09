@@ -2,7 +2,10 @@
   <div>
     <video ref="videoRef" autoplay playsinline width="530" height="400" class="rounded shadow mb-3 img-fluid"></video>
     <canvas ref="canvasRef" style="display: none;"></canvas>
+   
 
+
+    
     <div class="mb-3">
       <button @click="startCamera" class="btn btn-primary me-2">Start Camera</button>
       <button @click="capturePhoto" class="btn btn-success">Capture</button>
